@@ -44,7 +44,7 @@ def parse_logs():
         reverse=True
     )
 
-     result = [
+    result = [
         {
             "uri": uri,
             "hits": data["hits"],
